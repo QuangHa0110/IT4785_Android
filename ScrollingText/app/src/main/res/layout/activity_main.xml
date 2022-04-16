@@ -27,14 +27,22 @@
 
         />
 
-    <TextView
-        android:id="@+id/article"
-        android:layout_width="match_parent"
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/article_subheading"
-        android:lineSpacingExtra="@dimen/line_spacing"
-        android:padding="@dimen/padding_regular"
-        android:text="@string/article_text" />
+        android:layout_below="@id/article_subheading">
 
+
+        <TextView
+            android:id="@+id/article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:autoLink="web"
+            android:lineSpacingExtra="@dimen/line_spacing"
+            android:padding="@dimen/padding_regular"
+            android:text="@string/article_text" />
+    </ScrollView>
 
 </RelativeLayout>
