@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string-array name="tien_array">
+        <item>United States - Dollar</item>
+        <item>EUROPE - EUR</item>
+        <item>United Kingdom - GBP</item>
+        <item>Japan - JPY</item>
+        <item>Russia - RUB</item>
+        <item>China - CNY</item>
+        <item>HongKong - HKD</item>
+        <item>India - INR</item>
+        <item>Vietnam - Dong</item>
+    </string-array>
+</resources>
